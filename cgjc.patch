@@ -1,0 +1,651 @@
+Index: demo.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/demo.py b/demo.py
+new file mode 100644
+--- /dev/null	(date 1664726040566)
++++ b/demo.py	(date 1664726040566)
+@@ -0,0 +1,25 @@
++aj=('a','b','c')
++jk=('e','f')
++aj+=jk
++print(aj)
++
++
++aj *=2
++print(aj)
++print(aj[5])
++print(aj[1:5])
++
++mylist=["aws",250000]
++mylist1=["spark",500000]
++mylist+=mylist1
++print(mylist)
++
++mylist.append("1500000")
++print(mylist)
++
++mylist3=["Machine Learning",5000000]
++mylist.append(mylist3)
++print(mylist)
++
++mylist.insert(1,"Cloud")
++print(mylist)
+\ No newline at end of file
+Index: demo1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/demo1.py b/demo1.py
+new file mode 100644
+--- /dev/null	(date 1665291693551)
++++ b/demo1.py	(date 1665291693551)
+@@ -0,0 +1,23 @@
++from collections import defaultdict
++d=defaultdict(int)
++d[1]='python'
++d[2]='java'
++print(d[3])
++""""
++check multiple lines
++"""
++
++
++print("ajay", end=" ") #bhai
++print("bhai")
++print("ajay","bhai")
++
++print("Aurangabd \nMaharashtra")
++
++a=int(input('enter number'))
++if(a%2==0):
++    print("number is even")
++else:
++    print("number is odd")
++
++
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+new file mode 100644
+--- /dev/null	(date 1664715353862)
++++ b/main.py	(date 1664715353862)
+@@ -0,0 +1,10 @@
++
++
++a =20
++b ="Vinay"
++
++print(type(a))
++print(type(b))
++
++A= "hello world"
++print(A[0:6])
+\ No newline at end of file
+Index: result.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/result.py b/result.py
+new file mode 100644
+--- /dev/null	(date 1667565498450)
++++ b/result.py	(date 1667565498450)
+@@ -0,0 +1,21 @@
++# progam  to grade  calculate
++a=float(input('percentage'))
++if(a<35):
++    print ('fail')
++elif(a<45):
++    print('c grade')
++elif(a<60):
++    print('b grade')
++elif(a<85):
++    print('a grade')
++else:
++    print('topper')
++
++
++age = int(input("enter your age :"))
++if age <18 :
++    print("you are too young to marry")
++elif age >60 :
++    print("you are too aold to marry")
++else :
++   print ("we will  find a perfect match for you")
+Index: ss.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ss.py b/ss.py
+new file mode 100644
+--- /dev/null	(date 1665295600601)
++++ b/ss.py	(date 1665295600601)
+@@ -0,0 +1,18 @@
++
++""""
++
++for a in range(1,11):
++    if(a%2==0):
++        print('a is even')
++    else:
++        ('a is odd')
++"""
++
++        #print reverse 1 to 10
++i=10
++while (i>=1):
++    print(i)
++    i=i-1
++
++
++
+Index: brak.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/brak.py b/brak.py
+new file mode 100644
+--- /dev/null	(date 1665300674945)
++++ b/brak.py	(date 1665300674945)
+@@ -0,0 +1,18 @@
++# break
++for i in range(1,10):
++    if(i==4):
++     break
++    print(i)
++
++
++
++#continue
++
++for i in range(1,11):
++    if(i==4):
++     continue
++    print(i)
++
++    
++
++    print(f'hello{name} your age is{age}')
+\ No newline at end of file
+Index: .idea/pythonProject.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/pythonProject.iml b/.idea/pythonProject.iml
+new file mode 100644
+--- /dev/null	(date 1664101498720)
++++ b/.idea/pythonProject.iml	(date 1664101498720)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: condi.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/condi.py b/condi.py
+new file mode 100644
+--- /dev/null	(date 1667567044342)
++++ b/condi.py	(date 1667567044342)
+@@ -0,0 +1,3 @@
++a=int(input("enter the value:"))
++if a%2==0:
++    print(" even number")
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1664101498870)
++++ b/.idea/modules.xml	(date 1664101498870)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1664101499170)
++++ b/.idea/misc.xml	(date 1664101499170)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: task.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/task.py b/task.py
+new file mode 100644
+--- /dev/null	(date 1667640847685)
++++ b/task.py	(date 1667640847685)
+@@ -0,0 +1,4 @@
++user_input =int(input("enter a number"))
++
++for number in range(1,11):
++    print(user_input * number)
+Index: task1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/task1.py b/task1.py
+new file mode 100644
+--- /dev/null	(date 1668632869157)
++++ b/task1.py	(date 1668632869157)
+@@ -0,0 +1,99 @@
++# leap year or not
++'''x =int(input("enter an year"))
++if (x%400 == 0) or (x%100!=0 and x%4==0  ):
++  print("Leap Year")
++else:
++  print("Not a Leap Year")'''
++# count of vowels in string
++'''str1 = input("enter the string : ")
++str1_lower = str1.lower()
++vowels = "aeiou"
++count = 0
++for i in str1_lower :
++    if i in vowels :
++        count = count+1
++        print(i,end = " ")
++print("\ncount of vowels in given string : ",count)'''
++
++#swap two variables
++'''a= int(input("enter the value for a :"))
++b= int(input("enter the value for b :"))
++
++temp= a
++a=b
++b=temp
++
++print("after swapping:")
++print("value of a :",a)
++print("value of b:",b)'''
++
++
++# swap value without 3rd variable
++'''a=int(input("enter the value for a:"))
++b=int(input("enter the value for b:"))
++
++a=a+b
++b=a-b
++a=a-b
++
++print("after swapping :")
++print("value of a :",a)
++print("value of b :",b)
++'''
++
++'''
++print(len("Aurangabad"))
++print(float(5223))
++'''
++
++
++#functions
++'''
++def my_function(name):
++  print("Good morning",name)
++
++my_function("ajay")
++my_function("kiran")
++my_function("vikas")
++
++'''
++
++#positional arguments
++'''def greet(firstname,lastname):
++    print("good morning",firstname,lastname)
++    greet("ajay","mutekar")
++'''
++
++
++
++'''def my_function(fname, lname):
++  print(fname + " " + lname)
++
++my_function("Emil", "Refsnes")
++'''
++
++
++#Arbitary arguments
++'''def my_function(*acter):
++  print("The popular acter is " + acter[2])
++
++my_function("Akshay", "Ajay", "Rajni")
++'''
++
++
++# keyword arguments
++
++'''def my_function(child3, child2, child1):
++  print("The youngest child is " + child2)
++
++my_function(child1 = "chintu", child2 = "sonu", child3 = "golu")
++'''
++
++'''ajay="you can use a sub-query in a SELECT INSERT DELETE or  UPDATE statement to perform the following tasks"
++ajay=ajay.replace("or","and")
++print(ajay)
++'''
++
++friends=[10,17,50,15,30]
++friends.remove(17)
++print(friends)
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1669848655668)
++++ b/.idea/vcs.xml	(date 1669848655668)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1664101499350)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1664101499350)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: tuples.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tuples.py b/tuples.py
+new file mode 100644
+--- /dev/null	(date 1668888375825)
++++ b/tuples.py	(date 1668888375825)
+@@ -0,0 +1,52 @@
++
++#creating a tuple
++'''a=(1,2,5)
++print(a[0])
++'''
++
++# creating tuple using count function
++'''a=(2,5,6,4,5,2,6,5,68)
++print(a.count(5))
++'''
++# creating tuple using index function
++'''
++a=(5,6,7,6)
++print(a.index(7))
++'''
++
++# student list
++'''SSC=input("Enter a name")
++HSC=input("Enter a name")
++BA=input("Enter a name")
++BCOM=input("Enter a name")
++BCA=input("Enter a name")
++BCS=input("Enter a name")
++MCOM=input("Enter a name")
++MCA=input("Enter a name")
++
++total=[SSC,HSC,BA,BCOM,BCA,BCS,MCOM,MCA]
++print(total)'''
++
++
++'''a=(15,63,89)
++# print(a[1]+a[2])
++print(sum(a))
++'''
++
++'''a=(7,0,8,0,0,9)
++print(a.count(0))'''
++
++a={"city":"Aurangabad",
++   "State":"Maharashtra",
++   "Country":"India",
++   "Aurangabad":{'Taluka':'Khultabad'}
++   }
++# print(a['Aurangabad']['Taluka'])
++
++print(a.get('Aurangabad'))
++print(a)
++
++a=[1,2,3,4]
++b=[5,6,7]
++c=(a[0]+[1])+(b[0]+[1])
++print(sum(c))
+Index: sets.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sets.py b/sets.py
+new file mode 100644
+--- /dev/null	(date 1668802932390)
++++ b/sets.py	(date 1668802932390)
+@@ -0,0 +1,40 @@
++# sets simple program check duplicate number
++'''a={5,6,4,8,5,8}
++print(a)
++'''
++
++#sets length function
++'''a={1,5,6,7,4,5}
++print(len(a))
++'''
++
++# sets remove function
++'''a={5,9,2,6,4}
++(a.remove(5))
++print(a)
++'''
++
++##sets pop function
++'''a={1,4,5,6}
++(a.pop())
++print(a)
++'''
++
++# sets clear function
++'''a={4,8,9,4}
++(a.clear())
++print(a)
++'''
++
++# sets union function
++'''a={4,5,1}
++b={1,5,2}
++c=a | b
++print(c)
++'''
++
++# sets insertion function
++a={4,6,8}
++b={5,9,6,4,8,7}
++c=a & b
++print(c)
+\ No newline at end of file
+Index: conditional statement.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/conditional statement.py b/conditional statement.py
+new file mode 100644
+--- /dev/null	(date 1668929757221)
++++ b/conditional statement.py	(date 1668929757221)
+@@ -0,0 +1,23 @@
++# if statement
++'''i=10
++if (i<15):
++    print("10 is less than 15")
++'''
++
++# if else statement
++'''
++i=500
++if(i<150):
++     print("500 is greater than 150")
++else:
++    print("500 is less than 150")
++    '''
++
++# if-elif-else statement
++i=20
++if(i<20):
++    print(" i is less than 20")
++elif(i>20):
++    print(" i is greater than 20")
++else:
++    print(" i is not correct amount")
+\ No newline at end of file
+Index: conditional_statement_exercise.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/conditional_statement_exercise.py b/conditional_statement_exercise.py
+new file mode 100644
+--- /dev/null	(date 1669189652937)
++++ b/conditional_statement_exercise.py	(date 1669189652937)
+@@ -0,0 +1,25 @@
++'''Write an if statement that asks for
++the user's name via input() function. If the name is "Bond" make it print "Welcome on board 007." ' \
++'Otherwise make it print "Good morning NAME". (Replace Name with user's name)
++'''
++
++'''name=input("please enter your name")
++if name=="ved":
++    print("welcome to world")
++else:
++    print("welcome to dream-world")
++'''
++    #a this time making sure if the name is bond with lower case b it still prints "Welcome on board 007."
++
++'''name=input("please enter your name")
++if name=="ved":
++    print("welcome to connecting")
++else:
++    print("welcome to dis-connecting")
++'''
++
++    def evens(i):
++        if i % 2 == 0:
++            return True
++        else:
++            return False
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1664101504397)
++++ b/.idea/.gitignore	(date 1664101504397)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: practice.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/practice.py b/practice.py
+new file mode 100644
+--- /dev/null	(date 1664723740384)
++++ b/practice.py	(date 1664723740384)
+@@ -0,0 +1,29 @@
++a="Good Evening"
++print(a)
++
++b="'How r u '"
++print(b[0])
++print(b[1])
++print(b[-1])
++print(b[0:3])
++
++c='vijay'
++print(c[0:5])
++c.find('ja')
++
++
++str="kulkarni,Patil,shinde"
++print(str.find("n"))
++print(str.replace("kul","cool"))
++print(str.split(","))
++print(str.count("i"))
++print(str.upper())
++
++avs='!@123acdk'
++print(max(avs))
++print(min(avs))
++
++
++
++
++
+Index: scratch.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scratch.py b/scratch.py
+new file mode 100644
+--- /dev/null	(date 1664723565205)
++++ b/scratch.py	(date 1664723565205)
+@@ -0,0 +1,4 @@
++aj=('a','b','c')
++jk=('e','f')
++aj+=jk
++print(aj)
